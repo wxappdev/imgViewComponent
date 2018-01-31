@@ -1,0 +1,11 @@
+.imgBlock {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgUnit {
+  width: 180rpx;
+  height: 180rpx;
+  margin-bottom: 6rpx; 
+  padding-left: 6rpx;
+}

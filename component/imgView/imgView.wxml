@@ -1,0 +1,7 @@
+<scroll-view scroll-y style="height: {{height}};">
+  <view class='imgBlock'>
+    <block wx:for="{{pics}}" wx:key="idx" wx:for-index="idx" wx:for-item="pic">
+      <image lazy-load="true" data-url="{{pic}}" bindtap='onTapImg' src='{{pic}}' class='imgUnit' mode='aspectFill'></image>
+    </block>
+  </view>
+</scroll-view>

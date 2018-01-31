@@ -1,0 +1,3 @@
+<view>
+  <imgView pics="{{pics}}"></imgView>
+</view>

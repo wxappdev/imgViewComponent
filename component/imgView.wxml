@@ -1,0 +1,7 @@
+<view  class='imgBlock'>
+
+<block wx:for="{{pics}}" wx:key="idx" wx:for-index="idx" wx:for-item="pic">
+ <image src='{{pic}}' class='imgUnit' mode='aspectFill'></image>
+</block>
+
+</view>
